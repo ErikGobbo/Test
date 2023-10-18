@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <meta name="author" content="Erik">
+        <title>Show more</title>
+    </head>
+    <body>
+        <p id="more" onclick="showText()"><a href="#">more...</a></p>
+        <script>
+            function showText() {
+                let target = document.getElementById("more");
+                target.innerHTML = "More, and more, and more...";
+            }
+        </script>
+
+    </body>
+</html>
